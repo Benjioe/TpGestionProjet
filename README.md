@@ -59,13 +59,15 @@ Dans un futur cours, on verra comment travailler en limitant ce genre de problè
 Et voilà, maintenant que l'on a les bases, on va pouvoir attaquer les diagrammes ! 😎
 
 ## Diagrammes
-Nous allons modifier les diagrammes vu en cours pour les appliquer au projet d'année. Pour cela, on va utiliser Mermaid, un outil intégré à Github qui va permettre de créer ces diagrammes sous forme textuelle.
+Notre usine à cookies doit proposer de nouveaux cookies fourré avec un praliné (mélange de caramel et de fruits secs).
+Modifier les diagrammes vu en cours en conséquence. 
+
+Ceux-ci utilisent Mermaid, un outil intégré à Github pour créer des diagrammes sous forme textuelle.
 Pour vous faciliter le travail, n'hésitez pas à utiliser l'éditeur en ligne : [https://mermaid.live/](https://mermaid.live/).
 Pour ajouter des icônes : [https://emojiterra.com/fr/liste-emojis/](https://emojiterra.com/fr/liste-emojis/)
 
 ### Work Breakdown Structure
-Créer la Work Breakdown Structure de votre projet. ([documentation](https://mermaid.js.org/syntax/mindmap.html)).
-N'oubliez pas de préciser une estimation de temps pour chaque tache.
+[documentation](https://mermaid.js.org/syntax/mindmap.html)
 
 ```mermaid
 mindmap
@@ -83,7 +85,7 @@ mindmap
 ```
 
 ### Gantt
-Prenez l'une des branches de la Work Breakdown Structure et créer un diagramme de Gantt ([documentation](https://mermaid.js.org/syntax/gantt.html)).
+[documentation](https://mermaid.js.org/syntax/gantt.html)
 
 ```mermaid
 gantt
@@ -137,7 +139,7 @@ gantt
 N'oubliez pas de mettre à jour l'avancement durant votre projet 😉.
 
 ### Pert
-Choisir une des branches de la Work Breakdown Structure (ça peut être la même) et créer un diagramme de PERT ([documentation](https://mermaid.js.org/syntax/flowchart.html)).
+[documentation](https://mermaid.js.org/syntax/flowchart.html)
 
 ```mermaid
 graph LR
@@ -184,7 +186,7 @@ graph LR
     end
 ```
 ### Matrice des risques
-Créer la matrice des risques de votre projet ainsi que les solutions que vous envisagez pour chacun d'eux ([documentation](https://mermaid.js.org/syntax/quadrantChart.html)).
+[documentation](https://mermaid.js.org/syntax/quadrantChart.html)
 
 ```mermaid
 %%{init: {"themeVariables": {"quadrant1Fill": "red", "quadrant2Fill": "orange", "quadrant3Fill": "green", "quadrant4Fill": "orange"} }}%%
@@ -221,3 +223,11 @@ quadrantChart
 | ------------- | ------------- |
 | ❌ Four | Assurance |![image](https://github.com/user-attachments/assets/e0c248fb-c026-4ca8-b1c8-7510c8d02e7f)
 
+## Pour votre projet
+Avec l'outil de votre choix (papier + crayon, Mermaid ...), modélisez le déroulement de votre projet. En déduire les risques principaux et réfléchissez aux solutions envisageables pour chacun d'eux.
+
+Pour chaque diagramme, demandez-vous s'il peut être pertinent de les utiliser pour :
+- le suivi du projet
+- échanger avec votre tuteur
+- la présentation final
+- ... 
