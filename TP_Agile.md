@@ -1,8 +1,5 @@
 # But
-Dans ce TP, nous allons tester Scrum à l'aide de 2 outils :
-- Trello qui va nous permettre de créer des boards.
-- [https://www.burndownfortrello.com/](Burndown for Trello) pour suivre l'avancement sous forme de burdown chart.
-
+Dans ce TP, nous allons tester Scrum à l'aide de Trello qui va nous permettre de créer des boards.
 
 # Intialisation
 Créer un compte par membre de l'équipe sur Trello.
@@ -24,17 +21,14 @@ On va remplir le backlog avec nos user story. Puis on va en sélectionner 1 par 
 
 ```
 Pour ce TP, on va se contenter de 4 listes, mais pour votre projet n'hésiter pas à en créer/supprimer selon votre choix d'organisation.
-Pour que Burndown for Trello fonctionne correctement, la dernière colonne dois avoir dans son nom le mot clée "done".
 Pourquoi l'émoticone 🎉 ? Testez-le en déplaçant une user story dans la liste.
 ```
 
 En équipe, découper le projet tuteuré sous forme de User story sans rentrer dans le détail de celle-ci.
 
-
 Puis chaque membre en sélectionne une qui lui parait importante et la travail/découpe pour qu'elle sois INVEST.
 N'hésitez pas à ajouter une description à la carte si ça vous semble nécessaire.
 Quand c'est fait, déplacer la/les user story dans la liste Ready.
-
 
 # Planning Poker
 Ce sprint doit permettre d'avoir une story de référence pour les prochaines estimations. On va donc sélectionner celle qui vous parait la plus facile et lui donner une priorité 1 (P1 = les plus prioritaires). Priorisez les autres  en fonction de leur importance, mais en dessous de celle-ci.
@@ -47,27 +41,23 @@ Puis on l'estime en nombre de jours avec le planning poker et on la découpe en 
 Suite de Fibonaci :  1, 2, 3, 5, 8, 13, 21
 ```
 
-
 Sur Trello, ajouter le tableau sprint 1 avec pour liste :
-- Stories (NoBurn)
-```
-NoBurn permet à [https://www.burndownfortrello.com/](Burndown for Trello) d'ignorer les elements dans cette liste
-```
+- Stories
 - TODO
 - In progress
 - Done
 
-Copier la story estimée (quand on ouvre une carte, il y a un bouton pour copier.) dans la colonne Story (NoBurn) du sprint 1. Rédigez les différentes tâches de la story dans la colonne TODO du sprint 1. Ajouter l'estimation de la story ainsi que le temps par tache dans le titre entre parenthèses.
+Copier la story estimée (quand on ouvre une carte, il y a un bouton pour copier) dans la colonne Stories du sprint 1. 
+Rédigez les différentes tâches de la story dans la colonne TODO du sprint 1. 
+Ajouter l'estimation de la story ainsi que le temps par tache dans le titre entre parenthèses.
 
-```
-On met l'estimation entre parenthèses dans le titre pour que [https://www.burndownfortrello.com/](Burndown for Trello) puisse la récupérer.
-```
 Dans un sprint, il peut y avoir de nombreuses user stories, pour bien comprendre quelle tâche correspond à quelle story je vous conseil d'utiliser les étiquettes. Pour cela, ouvrez une carte et dans la partie à droite utilisez le bouton étiquette. Vous pouvez aussi créer des délimiteurs en ajoutant une carte ayant pour titre "---".
 
-Formalisez un objectif pour le sprint et ajouter une carte dans "Story (NoBurn)" pour se rappeler de celui-ci. 
+Formalisez un objectif pour le sprint et ajouter une carte dans "Stories" pour se rappeler de celui-ci. 
 Sélectionnez les user stories répondant à cet objectif.
 
-Pour un premier sprint, je vous conseille de partir sur une durée de 6 semaines en comptant 1 jour de travail par semaine par membre de l'équipe. Expliquez les story, estimez-les par rapport à la story de référence, découpez-les en tache et ajouter le tout sur Trello jusqu'à ce qu'il n'y ait plus de places dans le sprint.
+Faites en sorte que ce premier sprint se finisse avant la présentation de décembre. 
+Expliquez les story, estimez-les par rapport à la story de référence, découpez-les en tache et ajouter le tout sur Trello jusqu'à ce qu'il n'y ait plus de places dans le sprint.
 
 À partir de là, on pourrait attaquer le sprint, mais malheureusement, nous ne disposons pas de 5 jours de cours pour amener ce sprint à son terme. On va donc en simuler un, plus court pour voir comment ça fonctionne.
 
@@ -85,25 +75,6 @@ Ajoutez l'user story "Matrice des risques" avec pour taches :
 - "(9) Lister les risques et solutions", créez en une par nombre de personnes de l'équipe moins 1.
 - (2) Afficher sous forme de matrice
 
-## Burndown chart
-Rendez-vous sur [https://www.burndownfortrello.com/](https://www.burndownfortrello.com/), connectez votre compte Trello et afficher le sprint cookies.
-Pour l'instant, c'est un peu vide, commençons par préciser une durée de sprint de **2 jours** en cliquant sur le bouton "Settings" puis en précisant ses dates (aujourd'hui et demain). Profitez-en pour sélectionner comme "Tracking Units" "points" avant d'enregistrer.
-Revenez sur le diagramme, une jolie fonction linéaire orange s'affiche. 🤩
-
-On va attaquer le sprint en traitant 2 taches en parallèle. Le but est de terminer uniquement la première.
-Une personne se chargera donc de "(1) Work Breakdown Structure", il peut assigner dessus à l'aide du bouton "membres" sur la carte et la placer dans la colonne "In Progress". Et c'est parti pour ajouter un nouveau commit à notre Github.
-
-Les autres font de même avec la carte "(9) Lister les risques et solutions"
-
-**Dès que "(1) Work Breakdown Structure" est finis,** déplacer la carte dans la colonne "Done". Modifier le titre de "(9) Lister les risques et solutions" en "(9) Lister les risques et solutions [N]" avec N le nombre de personnes ayant travaillé sur cette tache.
-
-
-```
-Burndown for Trello interprète un nombre entre crochets dans le titre d'une carte comme le temps passé sur celle-ci. 
-```
-
-Affichez le brundown chart, que voyez vous ? Pas grand chose ? Et au niveau des progress bars et du tableau en bas de page ?
-
 ## Power Up Github
 Maintenant, imaginez, vous pensez que quand vous avez rempli le "Work Breakdown Structure" vous avez oublié une tache 😶 ! Mais ça fait longtemps et peut-être qu'elle a seulement était retiré après coup, car peu pertinent 🤔. Pour vérifier ça, ce serait bien de pouvoir retrouver facilement la modification que l'on vient de faire (= le commit) depuis la carte.
 
@@ -114,9 +85,7 @@ Ouvrir la carte "(1) Work Breakdown Structure", maintenant à droite, un bouton 
 Cliquer dessus, lier votre compte Github puis sélectionnez  "Joindre une validation" qui va nous permettre de retrouver nos commits (oui la traduction ... 💩). Sélectionnez le répository du TP et la branche "main", vous devriez pouvoir retrouver le commit.
 Validez, une nouvelle section apparaît avec les liens vers les modifications.
 
-
 Et voilà vous avez vu le déroulement d'un sprint. Ne finissez pas celui-ci, mais passez à la suite.
-
 
 # Sprint en autonomie
 J'espère que vous avez bien compris, car maintenant, vous allez être en autonomie.
