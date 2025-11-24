@@ -33,6 +33,11 @@ Quand c'est fait, déplacer la/les user story dans la liste Ready.
 # Planning Poker
 Ce sprint doit permettre d'avoir une story de référence pour les prochaines estimations. On va donc sélectionner celle qui vous parait la plus facile et lui donner une priorité 1 (P1 = les plus prioritaires). Priorisez les autres  en fonction de leur importance, mais en dessous de celle-ci.
 
+```
+Pour ajouter la priorité sur une carte, vous pouvez créer une étiquette par priorité.
+Pour cela, cliquez sur le bouton "Étiquettes" qui se situe sous le titre de la carte.
+```
+
 Le PO qui a redirigé la P1 présente aux autres qui vérifie qu'ils l'on bien comprise et qu'elle est bien INVEST.
 Donner lui une "definition of done" et ajouter là dans sa carte.
 
@@ -51,7 +56,9 @@ Copier la story estimée (quand on ouvre une carte, il y a un bouton pour copier
 Rédigez les différentes tâches de la story dans la colonne TODO du sprint 1. 
 Ajouter l'estimation de la story ainsi que le temps par tache dans le titre entre parenthèses.
 
-Dans un sprint, il peut y avoir de nombreuses user stories, pour bien comprendre quelle tâche correspond à quelle story je vous conseil d'utiliser les étiquettes. Pour cela, ouvrez une carte et dans la partie à droite utilisez le bouton étiquette. Vous pouvez aussi créer des délimiteurs en ajoutant une carte ayant pour titre "---".
+Dans un sprint, il peut y avoir de nombreuses user stories, pour bien comprendre quelle tâche correspond à quelle story je vous conseil de mettre la même image. 
+Pour cela, ouvrez la carte et utiliser le bouton en haut à droite (à gauche de la croix, avec un logo qui représente un tableau). 
+Vous pouvez aussi créer des délimiteurs en ajoutant une carte ayant pour titre "---".
 
 Faites en sorte que ce premier sprint se finisse avant la présentation de décembre. 
 Expliquez les story, estimez-les par rapport à la story de référence, découpez-les en tache et ajouter le tout sur Trello jusqu'à ce qu'il n'y ait plus de places dans le sprint.
