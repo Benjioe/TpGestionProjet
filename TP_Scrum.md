@@ -1,5 +1,6 @@
 # But
 Dans ce TP, nous allons tester Scrum à l'aide de Trello qui va nous permettre de créer des boards.
+On va donc créer un tableau Backlog avec nos users stories qui une fois validée seront déplacées puis découpées dans un tableau sprint. 
 
 # Intialisation
 Créer un compte par membre de l'équipe sur Trello.
@@ -12,7 +13,6 @@ Sur l'un des comptes :
 # Remplir le Backlog
 On va remplir le backlog avec nos user story. Puis on va en sélectionner 1 par membre de l'équipe que l'on va travailler pour voir si on peut les mettre au prochain sprint.
 
-
 1) Sur le tableau créer précédemment, créer 4 listes :
 - ToDo
 - Ready
@@ -24,7 +24,7 @@ Pour ce TP, on va se contenter de 4 listes, mais pour votre projet n'hésiter pa
 Pourquoi l'émoticone 🎉 ? Testez-le en déplaçant une user story dans la liste.
 ```
 
-En équipe, découper le projet tuteuré sous forme de User story sans rentrer dans le détail de celle-ci.
+En équipe, découper le projet tuteuré sous forme de User story sans rentrer dans le détail de celle-ci. Ne passez pas trop de temps à découper en user story, le but ici est de tester Scrum, quitte à revenir sur le découpage ensuite. 
 
 Puis chaque membre en sélectionne une qui lui parait importante et la travail/découpe pour qu'elle sois INVEST.
 N'hésitez pas à ajouter une description à la carte si ça vous semble nécessaire.
@@ -52,9 +52,6 @@ Rédigez les différentes tâches de la story dans la colonne TODO du sprint 1.
 Ajouter l'estimation de la story ainsi que le temps par tache dans le titre entre parenthèses.
 
 Dans un sprint, il peut y avoir de nombreuses user stories, pour bien comprendre quelle tâche correspond à quelle story je vous conseil d'utiliser les étiquettes. Pour cela, ouvrez une carte et dans la partie à droite utilisez le bouton étiquette. Vous pouvez aussi créer des délimiteurs en ajoutant une carte ayant pour titre "---".
-
-Formalisez un objectif pour le sprint et ajouter une carte dans "Stories" pour se rappeler de celui-ci. 
-Sélectionnez les user stories répondant à cet objectif.
 
 Faites en sorte que ce premier sprint se finisse avant la présentation de décembre. 
 Expliquez les story, estimez-les par rapport à la story de référence, découpez-les en tache et ajouter le tout sur Trello jusqu'à ce qu'il n'y ait plus de places dans le sprint.
