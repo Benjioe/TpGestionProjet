@@ -83,11 +83,11 @@ Ajoutez l'user story "Matrice des risques" avec pour taches :
 Maintenant, imaginez, vous pensez que quand vous avez rempli le "Work Breakdown Structure" vous avez oublié une tache 😶 ! Mais ça fait longtemps et peut-être qu'elle a seulement était retiré après coup, car peu pertinent 🤔. Pour vérifier ça, ce serait bien de pouvoir retrouver facilement la modification que l'on vient de faire (= le commit) depuis la carte.
 
 Pour cela, nous allons ajouter un "power up", une extension à Trello pour associer des commits Github à nos cartes. Rendez-vous sur la page du [Power Up Github](https://trello.com/power-ups/55a5d916446f517774210004/github) et avec le bouton bleu "Ajouter un power up" ajouter celui-ci sur notre "Sprint TP cookies".
-Ouvrir la carte "(1) Work Breakdown Structure", maintenant à droite, un bouton "Github" apparaît.
+Puis depuis le tableau "Sprint TP cookies", ouvrir le menu en haut à droite (bouton "...") puis choisissez "Power-Ups". Dans la section "Activé", affichez les paramètres du power up Github et cliquez sur "Autoriser le compte" pour associer ce tableau au compte Github.
 
-
-Cliquer dessus, lier votre compte Github puis sélectionnez  "Joindre une validation" qui va nous permettre de retrouver nos commits (oui la traduction ... 💩). Sélectionnez le répository du TP et la branche "main", vous devriez pouvoir retrouver le commit.
-Validez, une nouvelle section apparaît avec les liens vers les modifications.
+Maintenant, ouvrez la fiche de "(1) Work Breakdown Structure" puis cliquez sur le bouton "Power-ups" (en bas de la fiche), Github puis "joindre un commit".
+Sélectionnez le répository du TP et la branche "main", vous devriez pouvoir retrouver le commit.
+Validez, une nouvelle section apparaît avec le lien vers le commit.
 
 Et voilà vous avez vu le déroulement d'un sprint. Ne finissez pas celui-ci, mais passez à la suite.
 
