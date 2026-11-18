@@ -7,7 +7,7 @@ Créer un compte par membre de l'équipe sur Trello.
 Sur l'un des comptes :
 1. Créer le premier board en cliquant sur le bouton bleu "Créer" (dans le menu) puis "Créer un tableau".
 2. Donner pour titre "Backlog" et en visibilité "espace de travail"
-3. Puis ouvrir le sous-menu et ajouter vos camarades.
+3. Puis utiliser le bouton partager pour ajouter vos collègues.
 
 
 # Remplir le Backlog
