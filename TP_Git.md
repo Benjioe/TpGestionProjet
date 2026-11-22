@@ -21,8 +21,14 @@ Cliquez sur le bouton fork ![bouton fork](https://github.com/user-attachments/as
 
 # Récupérer le dépôt sur notre machine
 ## Contributeur
-Cloner le dépôt à l'aide de [Github Desktop](https://github.com/apps/desktop?locale=fr-fr) puis ouvrez le dossier où les sources ont été téléchargées. 
-Github Desktop s'est occupé de tout configurer pour nous. Nous allons pouvoir ajouter des commits.
+Lancez [Github Desktop](https://github.com/apps/desktop?locale=fr-fr).
+Ouvrez le menu "File" puis "Clone repository ...".
+Connectez-vous à l'aide du bouton "Sign in" sur l'onglet "Github.com".
+Sélectionnez le dépôt, l'endroit où le télécharger et cliquez sur le bouton "clone".
+
+Github Desktop va s'occuper de tout configurer pour nous, notamment l'authentification.
+
+Ouvrez le dossier où les sources ont été téléchargées, on va pouvoir créer des commits. 
 
 # Notre 1ère PR
 ## Contributeur
