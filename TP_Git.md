@@ -21,17 +21,8 @@ Cliquez sur le bouton fork ![bouton fork](https://github.com/user-attachments/as
 
 # Récupérer le dépôt sur notre machine
 ## Contributeur
-Pour connecter notre historique git avec celui distant (sur notre espace Github) nous allons utiliser SSH. 
-Configurez-le à l'aide de :   
-https://docs.github.com/fr/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-https://docs.github.com/fr/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
-
-Rendez-vous bien sur la version du dépot dans votre espace personnel, dépliez le menu code et copiez le chemin ssh :
-![chemin ssh](https://github.com/user-attachments/assets/0130c822-f258-41a2-988c-965ca36b4393)
-
-Ouvrir une console à l'endroit où l'on souhaite mettre les sources.
-Utilisez la commande `git clone` avec le chemin ssh récupéré précédemment.
-Validez pour télécharger celle-ci.
+Cloner le dépôt à l'aide de [Github Desktop](https://github.com/apps/desktop?locale=fr-fr) puis ouvrez le dossier où les sources ont été téléchargées. 
+Github Desktop s'est occupé de tout configurer pour nous. Nous allons pouvoir ajouter des commits.
 
 # Notre 1ère PR
 ## Contributeur
